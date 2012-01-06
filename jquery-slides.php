@@ -118,6 +118,11 @@ function jquery_slides() {
         while ($qry->have_posts()) : $qry->the_post();
             $html .= '<div class="'.$classPrefix.'slides-item">';
             $html .= '<div class="'.$classPrefix.'caption">' . get_the_content($post->ID) . '</div>';
+            $images = get_children( array( 'post_parent' => $post->ID, 'post_type' => 'attachment', 'post_mime_type' => 'image', 'orderby' => 'menu_order', 'order' => 'ASC', 'numberposts' => 999 ) );
+            if($images) {
+                $image = array_shift( $images );
+                $html .= wp_get_attachment_image($image->ID, 'full');
+            }
             $html .= '</div>';
         endwhile;
         $html .= '</div></div>';
