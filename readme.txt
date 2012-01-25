@@ -40,6 +40,4 @@ License: GPLv2
 == Changelog ==
 
 = 1.0.1 =
-* If the post has selected icon it is displayed if not first image from gallery is displayed
-* 
-*
+* If post has selected icon it is displayed, if not first image from gallery is displayed
