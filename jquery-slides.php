@@ -4,7 +4,7 @@
   Plugin Name: jQuery Slides
   Description: jQuery slides with customization options. Based on jQuery Slider by Vijay Kumar.
   Author: Paweł Szczekutowicz
-  Version: 1.0
+  Version: 1.0.1
 
   Copyright 2011  Paweł Szczekutowicz  (email : pszczekutowicz@gmail.com)
 
