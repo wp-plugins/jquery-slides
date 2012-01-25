@@ -4,7 +4,7 @@ Contributors: Paweł Szczekutowicz
 Tags: jQuery, Slider, Slides, Gallery, Plugin, Widget
 Requires at least: 2.8
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2
 
 This is a highly customizable jQuery Slides plugin. You can set its width, height, pagination and many
@@ -23,7 +23,7 @@ This plugin is based on jQuery Slides by Vijay Kumar .
 Tags: jQuery, Slider, Slides, Gallery, Plugin, Widget
 Requires at least: 2.8
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2
 
 == Installation ==
@@ -36,3 +36,10 @@ License: GPLv2
 
 1. Go to slides menu /wp-admin/edit.php?post_type=slide
 2. Go to /wp-admin/options-general.php?page=slides_options to configure the slider.
+
+== Changelog ==
+
+= 1.0.1 =
+* If the post has selected icon it is displayed if not first image from gallery is displayed
+* 
+*
